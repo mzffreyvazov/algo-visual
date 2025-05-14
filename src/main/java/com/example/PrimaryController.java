@@ -59,7 +59,6 @@ public class PrimaryController {
         if (algorithmComboBox != null) {
             algorithmComboBox.getItems().addAll("Insertion Sort", "Selection Sort");
             algorithmComboBox.getSelectionModel().selectFirst();
-            algorithmComboBox.setOnAction(e -> generateNewArray());
         }
         
         generateNewArray();
